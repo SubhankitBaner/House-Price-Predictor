@@ -20,7 +20,7 @@ st.sidebar.markdown("This application is designed to provide quick and intellige
 st.markdown("<h2 style='color:teal;'>Enter House Details Below</h2>", unsafe_allow_html=True)
 st.divider()
 
-pipeline=joblib.load('/workspaces/Codes-Please-/House_Price_Prediction_ML_Project/model/model_pipeline.pkl')
+pipeline=joblib.load('model/model_pipeline.pkl')
 area=st.number_input("Enter The Square feet area of house",min_value=1200,max_value=17000,step=5)
 bedroom=st.number_input("Enter number of bedrooms needed",min_value=1,max_value=6,step=1)
 bathroom=st.number_input("Enter number of bathroom needed",min_value=1,max_value=4,step=1)
