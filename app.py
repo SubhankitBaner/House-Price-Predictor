@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 #st.title("🏠 House Price Prediction App")
 col1, col2 = st.columns([4, 6])
 with col1:
-    st.image("/workspaces/Codes-Please-/House_Price_Prediction_ML_Project/images/house.webp", width=400)
+    st.image("images/house.webp", width=400)
 with col2:
     st.markdown("<h1 style='padding-top: 35px;'>House Price Prediction App</h1>", unsafe_allow_html=True)
 
